@@ -1,8 +1,8 @@
 /* Criação do banco e tabela */
 
-CREATE DATABASE db_ac4;
+CREATE DATABASE bd_atividadecontinua4;
 
-USE db_ac4;
+USE bd_atividadecontinua4;
 
 CREATE TABLE first(
       id smallint AUTO_INCREMENT
@@ -13,6 +13,6 @@ CREATE TABLE first(
 );
 
 INSERT INTO first (nome,sobrenome,numero) VALUES
-("Thiago", "Gastardelli", 0);
+("Joao", "Neto", 0);
 
 
